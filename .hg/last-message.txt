@@ -1,0 +1,1 @@
+BUGFIX: notifyObersevers() wasn't being called from all the relevant methods in BrailleTouchModel
