@@ -1,0 +1,36 @@
+HOWTO install:
+----------------
+Note: You will need API Level 13 or above (Android 4.0 or above), and an english Text-to-Speech Engine installed.
+
+Method 1:
+1) Import project to Eclipse.
+2) Make sure debuggin over USB is turned on on the device (tablet). 
+3) Run as Android application, select device from the pop up screen.
+
+Method 2:
+Install the apk like with: adb install PATH/APK_NAME.apk
+
+For both methods, you need an Android SDK installed and the device connected via USB.
+
+More detailed explanation: 
+http://www.talkandroid.com/guides/beginner/install-apk-files-on-android/
+
+==========================================================================================
+
+USAGE:
+---------
+Touch the screen with 6 fingers to calibrate (middle 3 fingers of both hands).
+After calibration, you can try typing like on a normal braille keyboard.
+For now, only Braille-6 in German is supported.
+
+Supported gestures:
+* Swipe with one finger (doesn't matter which one as long as it's only one) to the left to delete the last character.
+* Swipe twice in quick succession to delete the last word.
+* Swipe once to the right to read the last word.
+* Swipe right twice in quick succession to read the last sentence.
+* Swipe up once to input an empty space
+* Swipe down once to input a new line.
+
+For questions, contact: zaimemre@gmail.com
+
+
